@@ -64,9 +64,9 @@ body {
 .disk::before{
     content: '';
     position: absolute;
-    top: 50%
+    top: 50%;
     left: 50%;
-    transform: translate(250%, 250%);
+    transform: translate(-50%, -50%);
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -127,9 +127,9 @@ body {
 
 .play-btn span{
     position: absolute;
-    top: 0%;
+    top: 50%;
     left: 25%;
-    transform: translateY(50%);
+    transform: translateY(-50%);
     width: 10px;
     height: 30px;
     border-radius: 2px;
@@ -150,7 +150,7 @@ body {
 .play-btn.pause span:nth-child(1){
     width: 35%;
     left: 53%;
-    transform: translate(-50%, 50%);
+    transform: translate(-50%, -50%);
     border-radius:0;
     clip-path: polygon(0 0, 100% 50%, 100% 50%, 0% 100%);
 }
